@@ -1,12 +1,13 @@
 import './App.css';
-import Board from "./components/Board";
-
 
 
 function App() {
     return (
         <div className="App">
-            <Board></Board>
+            <h1 className="text-3xl font-bold underline">
+               Hello tailwindCss
+            </h1>
+            <div>hello world</div>
         </div>
     );
 }
