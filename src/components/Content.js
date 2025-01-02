@@ -12,7 +12,29 @@ const articleRows = [
             <>
                 这只大象有很不可思议的力气，它只用象鼻就能把树连根拔起。但它却仍然被一条细绳给囚禁着。尽管它有能力可以轻易挣脱，它却试也不试。为什么?
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "uproot",
+                "description": "连根拔起",
+                "type": "word"
+            },
+            {
+                "content": "trunk",
+                "description": "树干；象鼻",
+                "type": "word"
+            },
+            {
+                "content": "captivity",
+                "description": "囚禁；困住",
+                "type": "word"
+            },
+            {
+                "content": "break away",
+                "description": "挣脱",
+                "type": "phrase"
+            }
+        ]
     },
     {
         "text": (
@@ -24,79 +46,163 @@ const articleRows = [
             <>
                 这要从它年轻时说起。它很小时就被绑住，当时的力气还不足以扯断绳子。一开始它会尝试，尽力去挣脱，一试再试，最终，它了解到自己办不到。突然间，某种比绳子、铁链、栅栏都还要强的 东西跟它紧系在一起了。就是相信自己无法挣脱的执念。是这种执念限制了它-- 尽管它有能力。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "attach A to B",
+                "description": "将A附加到B",
+                "type": "phrase"
+            },
+            {
+                "content": "fence",
+                "description": "n.栅栏；障碍物",
+                "type": "word"
+            }
+        ]
     },
     {
         "text": (
             <>
-                I've had these same beliefs - you may have too - beliefs that held me back, beliefs that led me to feel unfulfilled in my work, to struggle in my relationships and to live a life that was far from the one I am living now.
+                I've had these same beliefs - you may have too - beliefs that held me back, beliefs that led me to feel <Mark content="unfulfilled" description="adj.壮志未酬的；不满足的"></Mark> in my work, to struggle in my relationships and to live a life that was far from the one I am living now.
             </>
         ),
         "translation": (
             <>
                 我也有类似的执念--你们可能也有--这些执念限制了我，这些执念让我在工作上不得志，在人际关系中挣扎，且过着和现在相去甚远的生活。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "unfulfilled",
+                "description": "adj.壮志未酬的；不满足的",
+                "type": "word"
+            }
+        ]
     },
     {
         "text": (
             <>
-                It was only when I became aware of my ropes and actively pulled against them that I found myself in a different reality. How do you break the ropes that tie you down? Don't believe everything you think.
+                It was only when I became aware of my ropes and actively <Mark content="pulled against" description="对抗" type="phrase"></Mark> them that I found myself in a different reality. How do you break the ropes that tie you down? Don't believe everything you think.
             </>
         ),
         "translation": (
             <>
                 直到我意识到束缚我的那些绳子，并主动去对抗它们，我才发现了一个不同的现实。你要如何挣脱绑住你的绳子?别尽信你所有的想法。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "pulled against",
+                "description": "对抗",
+                "type": "phrase"
+            }
+        ]
     },
     {
         "text": (
             <>
-                When I was six years old, I had a favorite baby sitter, Amber. One morning, my mother told me we couldn't have her babysit because she didn't have enough money to pay her. So that afternoon, I started my first company. I gathered rocks from around the neighborhood, painted them with my art set, and went door to door, selling them to our neighbors. That night, it was Amber and I on the couch together.
+                When I was six years old, I had a favorite <Mark content="baby sitter" description="保姆" type="phrase"></Mark>, Amber. One morning, my mother told me we couldn't have her babysit because she didn't have enough money to pay her. So that afternoon, I started my first company. I gathered rocks from around the neighborhood, painted them with my art set, and went <Mark content="door to door" description="挨家挨户" type="phrase"></Mark>, selling them to our neighbors. That night, it was Amber and I on the couch together.
             </>
         ),
         "translation": (
             <>
                 我六岁时，我最爱的褓姆是安柏。有一天早上，我母亲告诉我，我们不能再让她当褓姆了，因为我母亲没有足够的钱请她。那天下午，我成立了我的第一间公司。我从住家附近收集石头，用我的彩色做彩绘，接着，挨家挨户拜访，将它们销售给邻居。那晚，我如和安柏一起坐在沙发上。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "baby sitter",
+                "description": "保姆",
+                "type": "phrase"
+            },
+            {
+                "content": "door to door",
+                "description": "挨家挨户",
+                "type": "phrase"
+            }
+        ]
     },
     {
         "text": (
             <>
-                When I was young, I was bold, outgoing and fearless. I wore what I wanted (Laughter) or didn't want to wear, (Laughter) guided by my own voice that told me what would make me happy. I was also in love. His name was Fernando, and he was wonderful. As with everything else, I wasn't afraid to grab him with both hands. (Laughter) As I grew older, this picture started to fade. My exuberance was replaced with timidness, my leadership with conformity, my boldness with fear.
+                When I was young, I was bold, outgoing and fearless. I wore what I wanted (Laughter) or didn't want to wear, (Laughter) guided by my own voice that told me what would make me happy. I was also in love. His name was Fernando, and he was wonderful. As with everything else, I wasn't afraid to grab him with both hands. (Laughter) As I grew older, this picture started to fade. My <Mark content="exuberance" description="n.活力勃发"></Mark> was replaced with <Mark content="timidness" description="n.胆怯"></Mark>, my leadership with <Mark content="conformity" description="n.遵从；一致性"></Mark>, my boldness with fear.
             </>
         ),
         "translation": (
             <>
                 我小时候很大胆、外向、无惧。我想穿什么就穿什么，或者不想穿上任何衣服，听从内心的声音去做让自己快乐的事。我也恋爱了。他的名字叫佛南多，他很棒。外向大胆如故，我不怕用双手搂抱他随着我长大，这个画面开始淡去。我的热情活力被胆怯取代，我的领导能力被顺从取代，我的大胆被恐惧取代。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "exuberance",
+                "description": "n.活力勃发",
+                "type": "word"
+            },
+            {
+                "content": "timidness",
+                "description": "n.胆怯",
+                "type": "word"
+            },
+            {
+                "content": "conformity",
+                "description": "n.遵从；一致性",
+                "type": "word"
+            }
+        ]
     },
     {
         "text": (
             <>
-                I don't think any of us leave childhood without some ropes despite our parents' best intentions. I grew up with a mother who was determined to give me the perfect life. Armed with love and good intentions, she did everything for me to help me be perfect. I'd pack a suitcase to go on a school trip, and she'd unpack it and repack it in a more perfect way. I'd be ready to turn in a school art project, and then she'd add her own brush strokes to make it better.
+                I don't think any of us leave childhood without some ropes despite our parents' best intentions. I grew up with a mother who was determined to give me the perfect life. Armed with love and good intentions, she did everything for me to help me be perfect. I'd pack a <Mark content="suitcase" description="n.行李箱"></Mark> to go on a school trip, and she'd unpack it and repack it in a more perfect way. I'd be ready to turn in a school art project, and then she'd add her own <Mark content="brush strokes" description="笔触；画笔描边"></Mark> to make it better.
             </>
         ),
         "translation": (
             <>
                 尽管我们父母出于善意，我想大家或多或少都还是带着一些绳子长大。成长过程中，母亲决心要给我一个完美的人生。带着爱和好意，她为了帮我达到完美，什么都做了。为了学校旅行，我打包了一个行李箱，而她会把东西都拿出来，再重新打包得更完美。我准备好要交一篇学校的美术作品，她会帮我加上几笔让作品变更好。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "suitcase",
+                "description": "n.行李箱",
+                "type": "word"
+            },
+            {
+                "content": "brush strokes",
+                "description": "笔触；画笔描边",
+                "type": "phrase"
+            }
+        ]
     },
     {
         "text": (
             <>
-                Later she told me when my choice of boyfriend or apartment wasn't good enough. Although she just wanted what was best for me, I stopped knowing what was best for me. An unconscious rope was formed. I shouldn't trust my own voice and my own ability, and I feared not being perfect. Other ropes attached themselves too. I grew up in a family filled with yelling, loud voices and strong opinions. To keep the peace, I learned to stay quiet, to not rock the boat, to become invisible. In school, I came to believe it's more important to blend in than stand out. And the pain of an early heartbreak led me to hold back in my relationships so I could avoid getting hurt. I'm not good enough. Don't speak up. Don't stand out.
+                Later she told me when my choice of boyfriend or apartment wasn't good enough. Although she just wanted what was best for me, I stopped knowing what was best for me. An unconscious rope was formed. I shouldn't trust my own voice and my own ability, and I feared not being perfect. Other ropes attached themselves too. I grew up in a family filled with <Mark content="yelling" description="n.吼叫"></Mark>, loud voices and strong opinions. To keep the peace, I learned to stay quiet, to not <Mark content="rock the boat" description="捣乱" type="phrase"></Mark>, to become invisible. In school, I came to believe it's more important to <Mark content="blend in" description="融入" type="phrase"></Mark> than stand out. And the pain of an early heartbreak led me to hold back in my relationships so I could avoid getting hurt. I'm not good enough. Don't speak up. Don't stand out.
             </>
         ),
         "translation": (
             <>
                 之后她告诉我，我选男友或公寓的品味不够好。虽然她只是想要给我最好的，我却不再知道什么才是对我最好的。一条无意识的绳子形成了。我不应该相信我自己的 声音、我自己的能力，我害怕无法做到完美。其他绳子也相继出现了。我在充满了吼叫、大声说话、表达强烈意见的家庭中成长。为了保持和平，我学会不作声，不要惹事生非，变成隐形人。在学校，我渐渐相信，融入比突出更重要早期尝到心碎的痛苦，让我在谈恋爱时有所保留，才能避免受伤。我不够好。不要畅所欲言。不要突显自己。
             </>
-        )
+        ),
+        "items": [
+            {
+                "content": "yelling",
+                "description": "n.吼叫",
+                "type": "word"
+            },
+            {
+                "content": "rock the boat",
+                "description": "捣乱",
+                "type": "phrase"
+            },
+            {
+                "content": "blend in",
+                "description": "融入",
+                "type": "phrase"
+            }
+        ]
     },
     {
         "text": (
@@ -108,7 +214,8 @@ const articleRows = [
             <>
                 害怕失败。这些是我的绳子。这不只是我的故事。就像那只大象，在童年我们都渐渐相信某些事，但那些事并非真的--或至少不再是真的。但我们仍把它们当真在过日子。如果你曾经觉得自己不够好、孤单、没有人要、没有人爱、不被看见、无能力、没有归属感--这些就是你的绳子。如果你曾经觉得你无法相信自己、相信别人、勇于发声、表现自己、寻求协助、让他人进来、让真正的自己被接受--这些是你的绳子。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -120,7 +227,8 @@ const articleRows = [
             <>
                 这些绳子会限制住我们。当我应该相信我自己的意见时，我却顺从他人的意见;发表意见会对自己较有益时，我却保持沉默;有勇气站出来我其实会更快乐时，我却选择了融入。这导致一连串我做过的工作，从可容忍的到很糟糕的都有。其中一份工作，我希望自己能生病请假，这样就不用去上班。这也导致我陷入一连串无法信任自己、对方 以及这段关系的困境中。这些关系都无法成功。我的执念影响我看世界的角度，这就会改变我的行为，导致了自证预言。我觉得自己很渺小，我的世界就越变越小了。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -132,7 +240,8 @@ const articleRows = [
             <>
                 我们的信念有很强大的影响力。有数十年的社会心理学研究可以证明。在达特茅斯学院进行的一项研究用化妆的方式在受试者的脸上加上一道丑陋的疤痕。接着，送他们到房间去与人交谈，并要求他们回报别人对这丑陋疤痕有什么反应。但，有个小花样。在他们离开化妆室前，实验者说:「等一下!我们想要修饰一下你的疤痕。」但他们并不是修饰，而是把疤痕完全拿掉。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -144,7 +253,8 @@ const articleRows = [
             <>
                 受试者并不知道，接着便去参与交谈，外表看起来完全正常。尽管如此，他们回来时仍然回报了他们的谈话有多尴尬，对方如何避免看着他们的疤痕，眼神交流有障碍，在交谈中很紧绷、不舒服。他们相信自己有疤的执念，让他们看见这些根本不存在的事，替对方单纯的行为强赋予意义。本应是完全正常的交谈，却变得很尬。他们的执念造出他们的真实。其他研究也证明了同样的影响。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -156,7 +266,8 @@ const articleRows = [
             <>
                 在亚洲女子参与数学测验之前就强调出她的亚洲身分，会让她表现更佳。若强调她的女性身分，会让她表现变差。引导一群男性相信一项体育任务的表现可判断其运动智慧的话，白人的表现会较佳。引导他们相信这项任务可判断其天生的体育能力，则黑人的表现会较佳。给某个人一件白色大衣并告诉他这是医生的白袍，他们在注意力任务的表现会比说它是画家的画袍时更佳。在所有这些例子中，都是同样的人、同样的能力、同样的任务--不同的信念。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -168,7 +279,8 @@ const articleRows = [
             <>
                 在每个例子中，都是他们的信念在提升或降低他们的表现。你如何看待自己以及你的境况，会影响你的所见、所为，以及产生的结果。就好像我们的信念会帮我们戴上一副虚拟实境的头戴眼镜，这眼镜会让我们看到不存在的东西，带我们进入虚假的现实中。尽管和真相差了十万八千里，我们依然带着这些眼镜。我记得曾听过顶尖模特儿卡麦隆·罗素分享，她说尽管模特儿有最闪亮的头发和最长的腿，她们却是地球上对身体最没安全感的人。
             </>
-        )
+        ),
+        "items": []
     },
     {
         "text": (
@@ -180,40 +292,31 @@ const articleRows = [
             <>
                 得奖作家莉迪亚·约克娜薇琪分享了她在职涯初期未能把握住别人给她的一个文学表现机会。引述她的话，理由是:「我们不见得知道要如何去期望、答应或者选择这个大好机会，即使它就在我们眼前。是因为我们自惭形秽。觉得自己不值得拥有它。
             </>
-        )
+        ),
+        "items": []
     },
 ]
 
 const articleRowsHtml = articleRows.map((item, key) => {
-    return ArticleRow({key: key, text: item.text, translation: item.translation})
+    return ArticleRow({key: key, text: item.text, translation: item.translation, items: item.items})
 })
 
 export default function Content() {
     return (
-        <div className="flex flex-row justify-center">
-            <div className="min-h-dvh px-8 py-5 w-full basis-4/5">
-                <h1 className="text-3xl my-1 font-bold text-gray-800">Don't believe everything you think</h1>
-                <div className="text-xl my-1 font-bold text-gray-600">那些限制你的执念是你的不幸之源</div>
-                <div className="text-sm text-gray-600 mt-2 pb-1 border-b border-gray-300">
-                    <span className="mr-5 hover:text-gray-900 hover:cursor-pointer">Lauren Weinstin</span>
-                    <span className="hover:text-blue-400 hover:cursor-pointer">
-                        <a href="https://www.ted.com/talks/lauren_weinstein_don_t_believe_everything_you_think">阅读原文</a>
-                    </span>
-                </div>
-
-                <div className="text-base my-2 space-y-1">
-                    <div className="text-gray-800">
-                        This elephant has incredible strength. She can <Mark content="uproot" description="v.连根拔起"></Mark> a tree with her <Mark content="trunk" description="n.树干；象鼻"></Mark> alone. Yet she will remain in <Mark content="captivity" description="n.囚禁；困住"></Mark>, held by only a light rope. Despite her ability to easily <Mark content="break away" description="挣脱" type="phrase"></Mark>, she doesn't even try. Why?
-                    </div>
-                    <div className="text-gray-600">
-                        这只大象有不可思议的力气，它只用象鼻就能把树连根拔起。但它却仍然被一条细绳给囚禁着。尽管它有可能可以轻易挣脱，它却试也不试。为什么呢？
+        <>
+            <div className="grid grid-cols-6 gap-4">
+                <div className="col-start-2 col-span-4 ...">
+                    <h1 className="text-3xl my-1 font-bold text-gray-800">Don't believe everything you think</h1>
+                    <div className="text-xl my-1 font-bold text-gray-600">那些限制你的执念是你的不幸之源</div>
+                    <div className="text-sm text-gray-600 mt-2 pb-1 border-b border-gray-300">
+                        <span className="mr-5 hover:text-gray-900 hover:cursor-pointer">Lauren Weinstin</span>
+                        <span className="hover:text-blue-400 hover:cursor-pointer">
+                         <a href="https://www.ted.com/talks/lauren_weinstein_don_t_believe_everything_you_think">阅读原文</a>
+                     </span>
                     </div>
                 </div>
-
                 {articleRowsHtml}
-
-
             </div>
-        </div>
+        </>
     )
 }
