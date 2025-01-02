@@ -10,6 +10,14 @@ export default function Content() {
                         <a href="https://www.ted.com/talks/lauren_weinstein_don_t_believe_everything_you_think">阅读原文</a>
                     </span>
                 </div>
+                <div className="text-base my-2 space-y-1">
+                    <div className="text-gray-800">
+                        This elephant has incredible strength. She can <span>uproot</span> a tree with her trunk alone. Yet she will remain in captivity, held by only a light rope. Despite her ability to easily break away, she doesn't even try. Why?
+                    </div>
+                    <div className="text-gray-600">
+                        这只大象有不可思议的力气，它只用象鼻就能把树连根拔起。但它却仍然被一条细绳给囚禁着。尽管它有可能可以轻易挣脱，它却试也不试。为什么呢？
+                    </div>
+                </div>
             </div>
         </div>
     )
