@@ -26,8 +26,8 @@ const headItems = [
 
 export default function Header() {
 
-    const headItemsHtml = headItems.map((item) => {
-        return HeaderItem({itemValue: item.itemValue, isSelected: item.isSelected})
+    const headItemsHtml = headItems.map((item, index) => {
+        return HeaderItem({key: index, itemValue: item.itemValue, isSelected: item.isSelected})
     })
 
     return (
