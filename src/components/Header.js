@@ -1,4 +1,4 @@
-import HeadItem from "./HeadItem";
+import HeaderItem from "./HeaderItem";
 
 
 const headItems = [
@@ -24,10 +24,10 @@ const headItems = [
     }
 ];
 
-export default function Head() {
+export default function Header() {
 
     const headItemsHtml = headItems.map((item) => {
-        return HeadItem({itemValue: item.itemValue, isSelected: item.isSelected})
+        return HeaderItem({itemValue: item.itemValue, isSelected: item.isSelected})
     })
 
     return (
