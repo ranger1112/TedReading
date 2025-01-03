@@ -6,43 +6,30 @@ const processText = (text, items) => {
     // 将 items 按内容长度从长到短排序，确保优先匹配更长的短语
     const sortedItems = [...items].sort((a, b) => b.content.length - a.content.length);
 
-    // 用于存储处理后的结果
-    const result = [];
-    let remainingText = text;
+    // 构建正则表达式，匹配所有 items 中的内容
+    const regex = new RegExp(`(${sortedItems.map(item => item.content).join('|')})`, 'g');
 
-    while (remainingText.length > 0) {
-        let matched = false;
+    // 将文本拆分为匹配和非匹配的部分
+    const parts = text.split(regex);
 
-        // 尝试匹配 items 中的内容
-        for (const item of sortedItems) {
-            const { content } = item;
-
-            // 检查剩余文本是否以当前 item 的内容开头
-            if (remainingText.startsWith(content)) {
-                // 如果匹配到，用 Mark 组件包裹内容
-                result.push(
-                    <Mark
-                        key={remainingText}
-                        content={item.content}
-                        description={item.description}
-                        type={item.type}
-                    />
-                );
-                remainingText = remainingText.slice(content.length); // 移除已匹配的部分
-                matched = true;
-                break;
-            }
+    // 处理拆分后的部分
+    return parts.map((part, index) => {
+        const matchedItem = sortedItems.find(item => item.content === part);
+        if (matchedItem) {
+            return (
+                <Mark
+                    key={index}
+                    content={matchedItem.content}
+                    description={matchedItem.description}
+                    type={matchedItem.type}
+                />
+            );
+        } else {
+            return part; // 非匹配部分直接返回
         }
-
-        if (!matched) {
-            // 如果没有匹配到任何内容，将当前字符添加到结果中
-            result.push(remainingText[0]);
-            remainingText = remainingText.slice(1); // 移除已处理的字符
-        }
-    }
-
-    return result;
+    });
 };
+
 
 export default function ArticleRow({key, text, translation, items = []}) {
 
