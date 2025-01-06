@@ -1,4 +1,5 @@
-export default function HeaderItem({key, itemValue, isSelected = false}) {
+export default function HeaderItem({key, itemValue, onClick , isSelected = false}) {
+
 
     // 选中项的样式变化
     let className = 'p-6 min-h-14 w-30 text-gray-900 content-center hover:bg-orange-500 hover:text-white'
@@ -7,6 +8,6 @@ export default function HeaderItem({key, itemValue, isSelected = false}) {
     }
 
     return (
-        <div key={key} className={className}>{ itemValue }</div>
+        <div key={key} className={className} onClick={ onClick }>{ itemValue }</div>
     )
 }
