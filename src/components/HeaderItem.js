@@ -1,4 +1,4 @@
-export default function HeaderItem({key, itemValue, onClick , isSelected = false}) {
+export default function HeaderItem({key, itemValue, onClick , isSelected}) {
 
 
     // 选中项的样式变化
