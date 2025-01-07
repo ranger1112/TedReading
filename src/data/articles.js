@@ -7,4 +7,8 @@ const Articles = {
     list: []
 }
 
+const Recommend = Articles.recommend
+
 export default Articles
+
+export { Recommend }
