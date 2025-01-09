@@ -15,13 +15,18 @@ const processText = (text, items) => {
     // 处理拆分后的部分
     return parts.map((part, index) => {
         const matchedItem = sortedItems.find(item => item.content === part);
+
+        console.log(matchedItem)
+
+        const {id, grammar, desc, type} = matchedItem
+
         if (matchedItem) {
             return (
                 <Mark
-                    key={index}
-                    content={matchedItem.content}
-                    description={matchedItem.description}
-                    type={matchedItem.type}
+                    key={id}
+                    grammar={grammar}
+                    description={desc}
+                    type={type}
                 />
             );
         } else {
@@ -34,7 +39,10 @@ const processText = (text, items) => {
 export default function ArticleRow({key, text, translation, items = []}) {
 
     const cardItems = items.map((item, key) => {
-        return MarkCard({key: key, content: item.content, description: item.description, type: item.type})
+
+        const {id, content, grammar, desc, type} = item
+
+        return MarkCard({key: id, grammar: grammar, description: desc, type: type})
     })
 
     const processedText = processText(text, items)
