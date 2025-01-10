@@ -39,9 +39,9 @@ export default function ArticleRow({key, text, translation, items = []}) {
 
     const cardItems = items.map((item) => {
 
-        const {id, attr, grammar, desc, type} = item
+        const {id, attr_name, grammar, desc, type} = item
 
-        return MarkCard({key: id, attr: attr, grammar: grammar, description: desc, type: type})
+        return MarkCard({key: id, attr: attr_name, grammar: grammar, description: desc, type: type})
     })
 
     const processedText = processText(text, items)
