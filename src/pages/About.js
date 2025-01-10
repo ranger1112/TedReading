@@ -1,5 +1,5 @@
 function About() {
-    return <div>404 - Page Not Found</div>
+    return <div>About</div>
 }
 
 export default About

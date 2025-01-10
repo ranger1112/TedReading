@@ -45,7 +45,7 @@ function App() {
                 <Route path="/" element={<Recommend/>}/>
                 <Route path="/history" element={<History/>}></Route>
                 <Route path="/communication" element={<Communication/>}></Route>
-                <Route path="/comments" element={<Comments/>}></Route>
+                <Route path="/comment" element={<Comments/>}></Route>
                 <Route path="/about" element={<About/>}/>
             </Routes>
             <Footer></Footer>

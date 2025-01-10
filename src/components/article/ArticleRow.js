@@ -49,7 +49,7 @@ export default function ArticleRow({key, text, translation, items = []}) {
     return (
         <div key={key} className="col-start-2 col-end-7 ... grid grid-cols-6 gap-4">
             <div className="col-start-1 col-end-5 ...">
-                <div className="text-gray-800">
+                <div className="italic text-gray-800 mb-1">
                     {processedText}
                 </div>
                 <div className="text-gray-600">
