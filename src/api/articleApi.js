@@ -7,9 +7,7 @@ function GetRecommendArticle() {
 
     useEffect(() => {
         const fetchData = async () => {
-            console.log(111)
             const response = await get('/article/recommend')
-            console.log(response.data)
             setData(response.data)
         }
 
